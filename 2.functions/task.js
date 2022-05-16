@@ -1,8 +1,25 @@
 // Задание 1
 function getArrayParams(arr) {
   let min, max, sum, avg;
-
   // Ваш код
+  arr = [];
+  min = infinity;
+  max = -infinity;
+  sum = 10; 
+
+ let i = 0;
+ while (if (arr[i] > arr[i - 1]) {
+   max === arr[i]
+  };
+   if (arr[i] < arr[i - 1]) {
+    min === arr[i];
+   };) {
+  sum += arr[i];
+ }
+
+ 
+
+//min < arr.lenth;)
 
   return { min: min, max: max, avg: avg };
 }
