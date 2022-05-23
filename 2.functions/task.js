@@ -39,8 +39,6 @@ for (let i = 0; i < arr.length; i++) {
    return sum;
 }
 
-
-
 function makeWork(arrOfArr, func) {
 
   let sum = 0;
@@ -53,20 +51,6 @@ function makeWork(arrOfArr, func) {
 
   } return max;
 }
-
-
-let arrOfArr = [[1, 2, 3], [4, 5, 6]];
-let func = worker(arrOfArr);
-console.log(makeWork(arrOfArr, func));
-
-//arrOfArr = [[10, 10, 11], [20, 10]];
-//console.log('вывод функии мясорубки ' + makeWork(arrOfArr, worker(arrOfArr)));
-
-//arrOfArr = [[10, 10, 11], [20, 10]]
-console.log('вывод функии мясорубки worker ' + makeWork(arrOfArr, worker(arrOfArr)));
-
-//console.log(makeWork(arrOfArr, func));
-
 
             // Задание 3
 console.log('\nЗадание №3');
